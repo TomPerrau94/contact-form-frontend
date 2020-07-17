@@ -13,7 +13,10 @@ document.addEventListener("DOMContentLoaded", () => {
         message: document.querySelector("#message").value,
       };
       console.log(data);
-      const response = await axios.post("https://56c471b6ace3.ngrok.io", data);
+      const response = await axios.post(
+        "https://contact-form-backend-tom.herokuapp.com/",
+        data
+      );
       console.log(response);
     });
 });
