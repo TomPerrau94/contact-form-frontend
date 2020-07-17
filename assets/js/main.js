@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
       };
       console.log(data);
       const response = await axios.post(
-        "https://contact-form-backend-tom.herokuapp.com/",
+        "https://contact-form-backend-tom.herokuapp.com/form",
         data
       );
       console.log(response);
