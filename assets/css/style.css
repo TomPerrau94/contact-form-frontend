@@ -48,6 +48,7 @@ h1 {
   border: 1px solid var(--grey-20);
   border-radius: 5px;
   padding: 11px 14px 10px 14px;
+  margin-bottom: 20px;
 }
 
 #contact-form input::placeholder,
@@ -55,17 +56,11 @@ h1 {
   color: var(--grey-20);
 }
 
-#contact-form input {
-  flex: 1;
-  margin-bottom: 20px;
-}
-
 #contact-form textarea {
   font-family: "Inter", sans-serif;
 }
 
 .container-form button {
-  margin: 0 40px;
   padding: 12px;
   text-align: center;
   background-color: var(--purple);
