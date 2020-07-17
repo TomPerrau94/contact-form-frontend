@@ -1,6 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
   console.log("Document loaded");
 
+  let form = document.querySelector("#contact-form");
+
+  console.log(form);
   document
     .querySelector("#contact-form")
     .addEventListener("submit", async (event) => {
